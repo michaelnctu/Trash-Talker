@@ -1,19 +1,61 @@
 # Trash-Talker
----
-##功能
-*一個可以惹毛三種直接的人話語產生器
-##環境建置與需求
-*Node.js v12.18.2
-*Express v4.17.1
-*Express-Handlebars v5.1.0
-*body-parser v1.19.0
-##安裝與執行步驟
-*下載專案至本機
-*git clone https://github.com/michaelnctu/Trash-Talker.git
-*前往專案資料夾
-*cd words_generator
-*安裝套件
-*npm install
-*啟動專案
-*npm run dev
-*請至 http://localhost:3000 開始使用程式
+
+一個可以惹毛三種直接的人話語產生器
+
+## Features
+
+- 載入外部的Json檔案呈現網頁的餐廳資訊
+- 點擊餐廳清單，可查看餐廳詳細資訊，包括
+  - 類別
+  - 地址
+  - 電話
+  - 描述
+  - 圖片
+- 提供搜尋餐廳名稱功能
+
+## Environment SetUp
+
+ - [Node.js](https://nodejs.org/en/ "title text!")
+ 
+## Installing 
+
+1.打開Terminal，複製此專案至本地端
+
+```
+git clone https://github.com/michaelnctu/Trash-Talker.git
+```
+
+2.開啟Terminal，進入存放此專案的資料夾
+
+```
+cd restaurant_list
+```
+
+3.安裝 npm套件
+
+```
+npm install  //安裝套件
+```
+
+4.安裝 nodemon 套件
+
+```
+npm install -g nodemon
+```
+
+5.透過nodemon 啟動伺服器，執行app.js
+
+```
+nodemon app.js
+```
+
+6.當 terminal 出現以下字樣，表示伺服器已啟動並成功連結
+
+```
+Express is listening on http://localhost:3000
+```
+
+
+
+
+
