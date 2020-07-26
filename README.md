@@ -17,7 +17,7 @@ git clone https://github.com/michaelnctu/Trash-Talker.git
 2.開啟Terminal，進入存放此專案的資料夾
 
 ```
-cd restaurant_list
+cd words_generator
 ```
 
 3.安裝 npm套件
