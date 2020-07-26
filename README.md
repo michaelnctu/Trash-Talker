@@ -2,17 +2,6 @@
 
 一個可以惹毛三種直接的人話語產生器
 
-## Features
-
-- 載入外部的Json檔案呈現網頁的餐廳資訊
-- 點擊餐廳清單，可查看餐廳詳細資訊，包括
-  - 類別
-  - 地址
-  - 電話
-  - 描述
-  - 圖片
-- 提供搜尋餐廳名稱功能
-
 ## Environment SetUp
 
  - [Node.js](https://nodejs.org/en/ "title text!")
